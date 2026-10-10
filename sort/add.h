@@ -257,7 +257,7 @@ void run_test(const string& filename)
 
         cout << "\n--- " << names[i] << " ---\n";
 
-        cout << left
+        cout << left 
             << "| " << setw(8) << "Shell:"
             << setw(10) << m1.time_ms << " ms "
             << "| cmp: " << setw(10) << m1.comparisons
@@ -290,4 +290,5 @@ void main_menu()
     cout << "0. Exit\n";
     cout << "=== ================= ===\n";
     cout << "Enter choise: ";
+
 }
