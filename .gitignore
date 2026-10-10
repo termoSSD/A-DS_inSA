@@ -1,0 +1,95 @@
+# === CLion & JetBrains IDEs ===
+.idea/
+cmake-build-*/
+*.iws
+*.iml
+
+# === CMake & Build Artifacts ===
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# === Compiled Binaries & Libraries ===
+*.obj
+*.o
+*.tlog
+*.log
+*.d
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# === Debug & Crash Dumps ===
+*.pdb
+*.idb
+*.dSYM/
+*.ilk
+*.exp
+core
+core.*
+*.dmp
+
+# === Visual Studio / Clangd / Code Formatters Cache ===
+.vs/
+.clangd/
+.cache/
+
+# === OS Generated Files ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Папки збірок Visual Studio
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# Проміжні файли та кеші
+*.obj
+*.obj.*
+*.recipe
+*.tlog
+*.log
+*.ilk
+*.pdb
+*.idb
+*.dmp
+*.json.command
+*.module.json
+
+# Персональні налаштування користувача
+*.vcxproj.user
+*.suo
+*.user
+*.opendb
+*.db
+
+# Папка кешу Visual Studio
+.vs/
