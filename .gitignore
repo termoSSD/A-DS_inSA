@@ -1,10 +1,8 @@
-# === CLion & JetBrains IDEs ===
 .idea/
 cmake-build-*/
 *.iws
 *.iml
 
-# === CMake & Build Artifacts ===
 CMakeCache.txt
 CMakeFiles/
 CMakeScripts/
@@ -16,7 +14,6 @@ compile_commands.json
 CTestTestfile.cmake
 _deps/
 
-# === Compiled Binaries & Libraries ===
 *.obj
 *.o
 *.tlog
